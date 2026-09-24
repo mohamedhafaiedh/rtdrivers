@@ -57,7 +57,7 @@ const FLEET_DATA: Vehicle[] = [
   },
 ];
 
-const DISPLAY_ITEMS = [...FLEET_DATA, ...FLEET_DATA, ...FLEET_DATA];
+const DISPLAY_ITEMS = FLEET_DATA;
 
 export default function FleetCarousel() {
   const [startIndex, setStartIndex] = useState(0);

@@ -34,42 +34,42 @@ export default function NotreFlottePage() {
 <div className="elementor-element elementor-element-9621ad0 elementor-nav-menu__align-start elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-hidden-desktop elementor-hidden-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="9621ad0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-grow">
-<ul id="menu-1-9621ad0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29970"><a href="/nos-services//" className="elementor-item">Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-29971"><a href="/notre-flotte//" aria-current="page" className="elementor-item elementor-item-active">Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32131"><a href="/conciergerie//" className="elementor-item">Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29972"><a href="/nous-contacter//" className="elementor-item">Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29979"><a href="/reservation//" className="elementor-item">Reservation</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32226"><a href="/netjets-bookings//" className="elementor-item">NetJets Bookings</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32411"><a href="/test//" className="elementor-item">test</a></li>
+<ul id="menu-1-9621ad0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29970"><a href="/nos-services/" className="elementor-item">Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-29971"><a href="/notre-flotte/" aria-current="page" className="elementor-item elementor-item-active">Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32131"><a href="/conciergerie/" className="elementor-item">Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29972"><a href="/nous-contacter/" className="elementor-item">Nous contacter</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29979"><a href="/reservation/" className="elementor-item">Reservation</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32226"><a href="/netjets-bookings/" className="elementor-item">NetJets Bookings</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32411"><a href="/test/" className="elementor-item">test</a></li>
 </ul> </nav>
 <div className="elementor-menu-toggle" role="button" tabIndex={0} aria-label="Permuter le menu" aria-expanded="false">
 <svg aria-hidden="true" role="presentation" className="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" className="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg> </div>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-9621ad0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29970"><a href="/nos-services//" className="elementor-item" tabIndex={-1}>Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-29971"><a href="/notre-flotte//" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32131"><a href="/conciergerie//" className="elementor-item" tabIndex={-1}>Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29972"><a href="/nous-contacter//" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29979"><a href="/reservation//" className="elementor-item" tabIndex={-1}>Reservation</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32226"><a href="/netjets-bookings//" className="elementor-item" tabIndex={-1}>NetJets Bookings</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32411"><a href="/test//" className="elementor-item" tabIndex={-1}>test</a></li>
+<ul id="menu-2-9621ad0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29970"><a href="/nos-services/" className="elementor-item" tabIndex={-1}>Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-29971"><a href="/notre-flotte/" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32131"><a href="/conciergerie/" className="elementor-item" tabIndex={-1}>Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29972"><a href="/nous-contacter/" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29979"><a href="/reservation/" className="elementor-item" tabIndex={-1}>Reservation</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32226"><a href="/netjets-bookings/" className="elementor-item" tabIndex={-1}>NetJets Bookings</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32411"><a href="/test/" className="elementor-item" tabIndex={-1}>test</a></li>
 </ul> </nav>
 </div>
 </div>
 <div className="elementor-element elementor-element-3ed1ee0 elementor-nav-menu__align-start elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-hidden-mobile elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="3ed1ee0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-fade">
-<ul id="menu-1-3ed1ee0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28752"><a href="/nos-services//" className="elementor-item">Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-28751"><a href="/notre-flotte//" aria-current="page" className="elementor-item elementor-item-active">Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32164"><a href="/conciergerie//" className="elementor-item">Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28406"><a href="/nous-contacter//" className="elementor-item">Nous contacter</a></li>
+<ul id="menu-1-3ed1ee0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28752"><a href="/nos-services/" className="elementor-item">Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-28751"><a href="/notre-flotte/" aria-current="page" className="elementor-item elementor-item-active">Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32164"><a href="/conciergerie/" className="elementor-item">Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28406"><a href="/nous-contacter/" className="elementor-item">Nous contacter</a></li>
 </ul> </nav>
 <div className="elementor-menu-toggle" role="button" tabIndex={0} aria-label="Permuter le menu" aria-expanded="false">
 <svg aria-hidden="true" role="presentation" className="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" className="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg> </div>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-3ed1ee0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28752"><a href="/nos-services//" className="elementor-item" tabIndex={-1}>Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-28751"><a href="/notre-flotte//" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32164"><a href="/conciergerie//" className="elementor-item" tabIndex={-1}>Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28406"><a href="/nous-contacter//" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
+<ul id="menu-2-3ed1ee0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28752"><a href="/nos-services/" className="elementor-item" tabIndex={-1}>Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-28751"><a href="/notre-flotte/" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32164"><a href="/conciergerie/" className="elementor-item" tabIndex={-1}>Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28406"><a href="/nous-contacter/" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
 </ul> </nav>
 </div>
 </div>
@@ -97,7 +97,7 @@ export default function NotreFlottePage() {
 <div className="elementor-element elementor-element-4655488 elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-hidden-phone elementor-widget elementor-widget-button" data-id="4655488" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Réservation</span>
 </span>
@@ -131,7 +131,7 @@ export default function NotreFlottePage() {
 </div>
 </div>
 </div>
-<div data-dce-background-image-url="https://rtdrivers.fr/wp-content/uploads/2020/03/mercedes-e-class-3066396_1280.jpg" className="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-460baa3d" data-id="460baa3d" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div data-dce-background-image-url="/images/mercedes-e-class-3066396_1280.jpg" className="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-460baa3d" data-id="460baa3d" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-18306f93 elementor-widget elementor-widget-spacer" data-id="18306f93" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
 <div className="elementor-widget-container">
@@ -217,7 +217,7 @@ export default function NotreFlottePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-1a6769e elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="1a6769e" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Faire une réservation</span>
 </span>
@@ -315,7 +315,7 @@ export default function NotreFlottePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-e1a8906 elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="e1a8906" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Faire une réservation</span>
 </span>
@@ -406,7 +406,7 @@ export default function NotreFlottePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-59c880e elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="59c880e" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Faire une réservation</span>
 </span>
@@ -480,7 +480,7 @@ export default function NotreFlottePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-b38a356 elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="b38a356" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Faire une réservation</span>
 </span>
@@ -564,18 +564,18 @@ export default function NotreFlottePage() {
 <div className="elementor-element elementor-element-8d2876d elementor-nav-menu--dropdown-none elementor-nav-menu__align-center elementor-widget elementor-widget-nav-menu" data-id="8d2876d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
-<ul id="menu-1-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services//" className="elementor-item">Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-29531"><a href="/notre-flotte//" aria-current="page" className="elementor-item elementor-item-active">Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32163"><a href="/conciergerie//" className="elementor-item">Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter//" className="elementor-item">Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation//" className="elementor-item">Reservation</a></li>
+<ul id="menu-1-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services/" className="elementor-item">Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-29531"><a href="/notre-flotte/" aria-current="page" className="elementor-item elementor-item-active">Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32163"><a href="/conciergerie/" className="elementor-item">Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter/" className="elementor-item">Nous contacter</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation/" className="elementor-item">Reservation</a></li>
 </ul> </nav>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services//" className="elementor-item" tabIndex={-1}>Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-29531"><a href="/notre-flotte//" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32163"><a href="/conciergerie//" className="elementor-item" tabIndex={-1}>Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter//" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation//" className="elementor-item" tabIndex={-1}>Reservation</a></li>
+<ul id="menu-2-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services/" className="elementor-item" tabIndex={-1}>Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-28741 current_page_item menu-item-29531"><a href="/notre-flotte/" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32163"><a href="/conciergerie/" className="elementor-item" tabIndex={-1}>Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter/" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation/" className="elementor-item" tabIndex={-1}>Reservation</a></li>
 </ul> </nav>
 </div>
 </div>
@@ -590,18 +590,18 @@ export default function NotreFlottePage() {
 <div className="elementor-element elementor-element-ed4c666 elementor-nav-menu--dropdown-none elementor-nav-menu__align-center elementor-widget elementor-widget-nav-menu" data-id="ed4c666" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
-<ul id="menu-1-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente//" className="elementor-item">CGV</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales//" className="elementor-item">Mentions légales</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies//" className="elementor-item">Politique de cookies</a></li>
+<ul id="menu-1-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente/" className="elementor-item">CGV</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales/" className="elementor-item">Mentions légales</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies/" className="elementor-item">Politique de cookies</a></li>
 
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre//" className="elementor-item">Nous rejoindre</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre/" className="elementor-item">Nous rejoindre</a></li>
 </ul> </nav>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente//" className="elementor-item" tabIndex={-1}>CGV</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales//" className="elementor-item" tabIndex={-1}>Mentions légales</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies//" className="elementor-item" tabIndex={-1}>Politique de cookies</a></li>
+<ul id="menu-2-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente/" className="elementor-item" tabIndex={-1}>CGV</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales/" className="elementor-item" tabIndex={-1}>Mentions légales</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies/" className="elementor-item" tabIndex={-1}>Politique de cookies</a></li>
 
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre//" className="elementor-item" tabIndex={-1}>Nous rejoindre</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre/" className="elementor-item" tabIndex={-1}>Nous rejoindre</a></li>
 </ul> </nav>
 </div>
 </div>
@@ -678,42 +678,6 @@ export default function NotreFlottePage() {
 </div>
 </section>
 </footer>
-
-
-<link rel="stylesheet" id="elementor-icons-ekiticons-css" href="/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css/?ver=3.10.02" media="all" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

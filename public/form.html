@@ -18,5 +18,45 @@
     <input type="hidden" name="pageUrl" />
     <input type="hidden" name="timestamp" />
   </form>
+
+  <!-- Formulaire NetJets miroir statique -->
+  <form name="netjets" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="netjets" />
+    <input type="hidden" name="bot-field" />
+    <input type="hidden" name="subject" value="Nouvelle réservation NetJets" />
+    <input type="date" name="date" />
+    <input type="time" name="heure" />
+    <select name="depart">
+      <option value="Aéroport Paris CDG">Aéroport Paris CDG</option>
+      <option value="Zone hôtelière CDG">Zone hôtelière CDG</option>
+      <option value="Jetex">Jetex</option>
+      <option value="Orly">Orly</option>
+      <option value="Gare du Nord">Gare du Nord</option>
+    </select>
+    <select name="arrivee">
+      <option value="Jetex">Jetex</option>
+      <option value="Orly">Orly</option>
+      <option value="Gare du Nord">Gare du Nord</option>
+      <option value="Aéroport Paris CDG">Aéroport Paris CDG</option>
+      <option value="Zone hôtelière CDG">Zone hôtelière CDG</option>
+    </select>
+    <select name="passagers">
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <select name="payment_method">
+      <option value="On board">On board</option>
+      <option value="Online">Online</option>
+    </select>
+    <input type="text" name="numvol" />
+    <input type="text" name="hotel" />
+    <input type="text" name="name" />
+    <input type="tel" name="phone" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+    <input type="hidden" name="pageUrl" />
+    <input type="hidden" name="timestamp" />
+  </form>
 </body>
 </html>

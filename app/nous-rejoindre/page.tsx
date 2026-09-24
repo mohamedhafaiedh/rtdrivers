@@ -24,7 +24,7 @@ export default function NousRejoindrePage() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-928ebb6 elementor-widget__width-auto elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="928ebb6" data-widget_type="theme-site-logo.default">
 <div className="elementor-widget-container">
-<a href="https://rtdrivers.fr">
+<a href="/">
 <img alt="" className="attachment-full size-full wp-image-30686" height="137" sizes="(max-width: 480px) 100vw, 480px" src="/images/cropped-Color-logo-no-background480.png" width="480"/> </a>
 </div>
 </div>
@@ -168,8 +168,8 @@ export default function NousRejoindrePage() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-2bc8e7f elementor-hidden-phone elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="2bc8e7f" data-widget_type="theme-site-logo.default">
 <div className="elementor-widget-container">
-<a href="https://rtdrivers.fr">
-<img alt="" className="attachment-full size-full wp-image-30686" height="137" sizes="(max-width: 480px) 100vw, 480px" src="https://rtdrivers.fr/wp-content/uploads/2020/03/cropped-Color-logo-no-background480.png" srcSet="https://rtdrivers.fr/wp-content/uploads/2020/03/cropped-Color-logo-no-background480.png 480w, https://rtdrivers.fr/wp-content/uploads/2020/03/cropped-Color-logo-no-background480-300x86.png 300w, https://rtdrivers.fr/wp-content/uploads/2020/03/cropped-Color-logo-no-background480-460x131.png 460w" width="480"/> </a>
+<a href="/">
+<img alt="" className="attachment-full size-full wp-image-30686" height="137" sizes="(max-width: 480px) 100vw, 480px" src="/images/cropped-Color-logo-no-background480.png" srcSet="/images/cropped-Color-logo-no-background480.png 480w, /images/cropped-Color-logo-no-background480-300x86.png 300w, /images/cropped-Color-logo-no-background480-460x131.png 460w" width="480"/> </a>
 </div>
 </div>
 <div className="elementor-element elementor-element-ec00fee elementor-icon-list--layout-inline elementor-align-center elementor-tablet-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-e-type="widget" data-element_type="widget" data-id="ec00fee" data-widget_type="icon-list.default">
@@ -201,7 +201,7 @@ export default function NousRejoindrePage() {
 </div>
 <div className="elementor-element elementor-element-21f596a elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="21f596a" data-widget_type="image.default">
 <div className="elementor-widget-container">
-<img alt="" className="attachment-large size-large wp-image-28416" height="20" src="https://rtdrivers.fr/wp-content/uploads/2020/02/pay.svg" width="268"/> </div>
+<img alt="" className="attachment-large size-large wp-image-28416" height="20" src="/images/pay.svg" width="268"/> </div>
 </div>
 <div className="elementor-element elementor-element-004edd9 elementor-widget elementor-widget-text-editor" data-e-type="widget" data-element_type="widget" data-id="004edd9" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
@@ -269,8 +269,8 @@ export default function NousRejoindrePage() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-43e1110 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="43e1110" data-widget_type="theme-site-logo.default">
 <div className="elementor-widget-container">
-<a href="https://rtdrivers.fr">
-<img alt="" className="attachment-full size-full wp-image-30686" height="137" sizes="(max-width: 480px) 100vw, 480px" src="https://rtdrivers.fr/wp-content/uploads/2020/03/cropped-Color-logo-no-background480.png" srcSet="https://rtdrivers.fr/wp-content/uploads/2020/03/cropped-Color-logo-no-background480.png 480w, https://rtdrivers.fr/wp-content/uploads/2020/03/cropped-Color-logo-no-background480-300x86.png 300w, https://rtdrivers.fr/wp-content/uploads/2020/03/cropped-Color-logo-no-background480-460x131.png 460w" width="480"/> </a>
+<a href="/">
+<img alt="" className="attachment-full size-full wp-image-30686" height="137" sizes="(max-width: 480px) 100vw, 480px" src="/images/cropped-Color-logo-no-background480.png" srcSet="/images/cropped-Color-logo-no-background480.png 480w, /images/cropped-Color-logo-no-background480-300x86.png 300w, /images/cropped-Color-logo-no-background480-460x131.png 460w" width="480"/> </a>
 </div>
 </div>
 <div className="elementor-element elementor-element-4f653f7 elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="4f653f7" data-widget_type="heading.default">
@@ -338,43 +338,6 @@ export default function NousRejoindrePage() {
 </footer>
 
 
-<link href="/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.10.02" id="elementor-icons-ekiticons-css" media="all" rel="stylesheet"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
+</body>
   );
 }

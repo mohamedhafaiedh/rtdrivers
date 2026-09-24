@@ -69,7 +69,7 @@ const REVIEWS_DATA: Review[] = [
   },
 ];
 
-const DISPLAY_REVIEWS = [...REVIEWS_DATA, ...REVIEWS_DATA, ...REVIEWS_DATA];
+const DISPLAY_REVIEWS = REVIEWS_DATA;
 
 export default function TestimonialsCarousel() {
   const [startIndex, setStartIndex] = useState(0);
@@ -214,7 +214,7 @@ export default function TestimonialsCarousel() {
                         </div>
 
                         <div>
-                          <h4 className="rt-review-author-name">{review.name}</h4>
+                          <div className="rt-review-author-name" style={{ fontWeight: 600 }}>{review.name}</div>
                           <span className="rt-review-date">{review.date}</span>
                         </div>
                       </div>

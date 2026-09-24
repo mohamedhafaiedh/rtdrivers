@@ -88,7 +88,7 @@ export default function ReservationPage() {
 </div>
 <div className="elementor-element elementor-element-4e94a32 elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="4e94a32" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
-<p><a href="/conditions-generales-de-vente//" target="_blank" rel="noopener">CGV</a> – <a href="/mentions-legales//" target="_blank" rel="noopener">Mentions légales</a></p> </div>
+<p><a href="/conditions-generales-de-vente/" target="_blank" rel="noopener">CGV</a> – <a href="/mentions-legales/" target="_blank" rel="noopener">Mentions légales</a></p> </div>
 </div>
 </div>
 </div>
@@ -99,40 +99,6 @@ export default function ReservationPage() {
 </div>
 </section>
 </div>
-
-
-<link rel="stylesheet" id="elementor-icons-ekiticons-css" href="/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css/?ver=3.10.02" media="all" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>

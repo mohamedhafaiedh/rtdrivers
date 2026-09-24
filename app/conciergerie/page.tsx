@@ -34,42 +34,42 @@ export default function ConciergeriePage() {
 <div className="elementor-element elementor-element-9621ad0 elementor-nav-menu__align-start elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-hidden-desktop elementor-hidden-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="9621ad0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-grow">
-<ul id="menu-1-9621ad0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29970"><a href="/nos-services//" className="elementor-item">Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29971"><a href="/notre-flotte//" className="elementor-item">Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32131"><a href="/conciergerie//" aria-current="page" className="elementor-item elementor-item-active">Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29972"><a href="/nous-contacter//" className="elementor-item">Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29979"><a href="/reservation//" className="elementor-item">Reservation</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32226"><a href="/netjets-bookings//" className="elementor-item">NetJets Bookings</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32411"><a href="/test//" className="elementor-item">test</a></li>
+<ul id="menu-1-9621ad0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29970"><a href="/nos-services/" className="elementor-item">Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29971"><a href="/notre-flotte/" className="elementor-item">Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32131"><a href="/conciergerie/" aria-current="page" className="elementor-item elementor-item-active">Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29972"><a href="/nous-contacter/" className="elementor-item">Nous contacter</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29979"><a href="/reservation/" className="elementor-item">Reservation</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32226"><a href="/netjets-bookings/" className="elementor-item">NetJets Bookings</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32411"><a href="/test/" className="elementor-item">test</a></li>
 </ul> </nav>
 <div className="elementor-menu-toggle" role="button" tabIndex={0} aria-label="Permuter le menu" aria-expanded="false">
 <svg aria-hidden="true" role="presentation" className="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" className="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg> </div>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-9621ad0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29970"><a href="/nos-services//" className="elementor-item" tabIndex={-1}>Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29971"><a href="/notre-flotte//" className="elementor-item" tabIndex={-1}>Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32131"><a href="/conciergerie//" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29972"><a href="/nous-contacter//" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29979"><a href="/reservation//" className="elementor-item" tabIndex={-1}>Reservation</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32226"><a href="/netjets-bookings//" className="elementor-item" tabIndex={-1}>NetJets Bookings</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32411"><a href="/test//" className="elementor-item" tabIndex={-1}>test</a></li>
+<ul id="menu-2-9621ad0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29970"><a href="/nos-services/" className="elementor-item" tabIndex={-1}>Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29971"><a href="/notre-flotte/" className="elementor-item" tabIndex={-1}>Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32131"><a href="/conciergerie/" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29972"><a href="/nous-contacter/" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29979"><a href="/reservation/" className="elementor-item" tabIndex={-1}>Reservation</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32226"><a href="/netjets-bookings/" className="elementor-item" tabIndex={-1}>NetJets Bookings</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32411"><a href="/test/" className="elementor-item" tabIndex={-1}>test</a></li>
 </ul> </nav>
 </div>
 </div>
 <div className="elementor-element elementor-element-3ed1ee0 elementor-nav-menu__align-start elementor-nav-menu--dropdown-mobile elementor-nav-menu--stretch elementor-hidden-mobile elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="3ed1ee0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-background e--animation-fade">
-<ul id="menu-1-3ed1ee0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28752"><a href="/nos-services//" className="elementor-item">Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28751"><a href="/notre-flotte//" className="elementor-item">Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32164"><a href="/conciergerie//" aria-current="page" className="elementor-item elementor-item-active">Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28406"><a href="/nous-contacter//" className="elementor-item">Nous contacter</a></li>
+<ul id="menu-1-3ed1ee0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28752"><a href="/nos-services/" className="elementor-item">Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28751"><a href="/notre-flotte/" className="elementor-item">Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32164"><a href="/conciergerie/" aria-current="page" className="elementor-item elementor-item-active">Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28406"><a href="/nous-contacter/" className="elementor-item">Nous contacter</a></li>
 </ul> </nav>
 <div className="elementor-menu-toggle" role="button" tabIndex={0} aria-label="Permuter le menu" aria-expanded="false">
 <svg aria-hidden="true" role="presentation" className="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" className="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg> </div>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-3ed1ee0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28752"><a href="/nos-services//" className="elementor-item" tabIndex={-1}>Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28751"><a href="/notre-flotte//" className="elementor-item" tabIndex={-1}>Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32164"><a href="/conciergerie//" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28406"><a href="/nous-contacter//" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
+<ul id="menu-2-3ed1ee0" className="elementor-nav-menu"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28752"><a href="/nos-services/" className="elementor-item" tabIndex={-1}>Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28751"><a href="/notre-flotte/" className="elementor-item" tabIndex={-1}>Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32164"><a href="/conciergerie/" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28406"><a href="/nous-contacter/" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
 </ul> </nav>
 </div>
 </div>
@@ -97,7 +97,7 @@ export default function ConciergeriePage() {
 <div className="elementor-element elementor-element-4655488 elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-hidden-phone elementor-widget elementor-widget-button" data-id="4655488" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/reservation/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Réservation</span>
 </span>
@@ -131,7 +131,7 @@ export default function ConciergeriePage() {
 </div>
 </div>
 </div>
-<div data-dce-background-image-url="https://rtdrivers.fr/wp-content/uploads/2025/01/services-conciergerie.jpg" className="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-460baa3d" data-id="460baa3d" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div data-dce-background-image-url="/images/services-conciergerie.jpg" className="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-460baa3d" data-id="460baa3d" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-18306f93 elementor-widget elementor-widget-spacer" data-id="18306f93" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
 <div className="elementor-widget-container">
@@ -158,7 +158,7 @@ export default function ConciergeriePage() {
 </section>
 <section className="elementor-section elementor-top-section elementor-element elementor-element-132e5bf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="132e5bf" data-element_type="section" data-e-type="section">
 <div className="elementor-container elementor-column-gap-default">
-<div data-dce-background-image-url="https://rtdrivers.fr/wp-content/uploads/2025/01/services-conciergerie-600-x-400-px-5.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-143bc8a" data-id="143bc8a" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+<div data-dce-background-image-url="/images/services-conciergerie-600-x-400-px-5.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-143bc8a" data-id="143bc8a" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-2ab0105 elementor-widget elementor-widget-spacer" data-id="2ab0105" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
 <div className="elementor-widget-container">
@@ -194,7 +194,7 @@ export default function ConciergeriePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-6a96d3d elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="6a96d3d" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Nous contacter</span>
 </span>
@@ -237,7 +237,7 @@ export default function ConciergeriePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-e292a10 elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="e292a10" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Nous contacter</span>
 </span>
@@ -251,7 +251,7 @@ export default function ConciergeriePage() {
 </section>
 </div>
 </div>
-<div data-dce-background-image-url="https://rtdrivers.fr/wp-content/uploads/2025/01/services-conciergerie-600-x-400-px-4.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5f4d525" data-id="5f4d525" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+<div data-dce-background-image-url="/images/services-conciergerie-600-x-400-px-4.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5f4d525" data-id="5f4d525" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-8805113 elementor-widget elementor-widget-spacer" data-id="8805113" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
 <div className="elementor-widget-container">
@@ -266,7 +266,7 @@ export default function ConciergeriePage() {
 </section>
 <section className="elementor-section elementor-top-section elementor-element elementor-element-3801e16 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3801e16" data-element_type="section" data-e-type="section">
 <div className="elementor-container elementor-column-gap-default">
-<div data-dce-background-image-url="https://rtdrivers.fr/wp-content/uploads/2025/01/services-conciergerie-600-x-400-px-3.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19c0264" data-id="19c0264" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+<div data-dce-background-image-url="/images/services-conciergerie-600-x-400-px-3.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19c0264" data-id="19c0264" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-bbc3cd3 elementor-widget elementor-widget-spacer" data-id="bbc3cd3" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
 <div className="elementor-widget-container">
@@ -302,7 +302,7 @@ export default function ConciergeriePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-56be697 elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="56be697" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Nous contacter</span>
 </span>
@@ -345,7 +345,7 @@ export default function ConciergeriePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-fb64d1c elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="fb64d1c" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Nous contacter</span>
 </span>
@@ -359,7 +359,7 @@ export default function ConciergeriePage() {
 </section>
 </div>
 </div>
-<div data-dce-background-image-url="https://rtdrivers.fr/wp-content/uploads/2021/07/e67ec824afbc9f855ad850f1b49c5b05_XL.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f4653e4" data-id="f4653e4" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+<div data-dce-background-image-url="/images/e67ec824afbc9f855ad850f1b49c5b05_XL.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-f4653e4" data-id="f4653e4" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-543a693 elementor-widget elementor-widget-spacer" data-id="543a693" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
 <div className="elementor-widget-container">
@@ -374,7 +374,7 @@ export default function ConciergeriePage() {
 </section>
 <section className="elementor-section elementor-top-section elementor-element elementor-element-09bea2b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="09bea2b" data-element_type="section" data-e-type="section">
 <div className="elementor-container elementor-column-gap-default">
-<div data-dce-background-image-url="https://rtdrivers.fr/wp-content/uploads/2025/01/services-conciergerie-600-x-400-px-2.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-beef5f6" data-id="beef5f6" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+<div data-dce-background-image-url="/images/services-conciergerie-600-x-400-px-2.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-beef5f6" data-id="beef5f6" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-7c67019 elementor-widget elementor-widget-spacer" data-id="7c67019" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
 <div className="elementor-widget-container">
@@ -410,7 +410,7 @@ export default function ConciergeriePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-d9f4066 elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="d9f4066" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Nous contacter</span>
 </span>
@@ -453,7 +453,7 @@ export default function ConciergeriePage() {
 <div data-dce-background-color="#189930" className="elementor-element elementor-element-9c4d593 elementor-align-center elementor-mobile-align-justify elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="9c4d593" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
-<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter//">
+<a className="elementor-button elementor-button-link elementor-size-md" href="/nous-contacter/">
 <span className="elementor-button-content-wrapper">
 <span className="elementor-button-text">Nous contacter</span>
 </span>
@@ -467,7 +467,7 @@ export default function ConciergeriePage() {
 </section>
 </div>
 </div>
-<div data-dce-background-image-url="https://rtdrivers.fr/wp-content/uploads/2025/01/services-conciergerie-600-x-400-px-1.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d8f0cfd" data-id="d8f0cfd" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+<div data-dce-background-image-url="/images/services-conciergerie-600-x-400-px-1.jpg" className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d8f0cfd" data-id="d8f0cfd" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;2.5&quot;,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-5e1e5a3 elementor-widget elementor-widget-spacer" data-id="5e1e5a3" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
 <div className="elementor-widget-container">
@@ -548,18 +548,18 @@ export default function ConciergeriePage() {
 <div className="elementor-element elementor-element-8d2876d elementor-nav-menu--dropdown-none elementor-nav-menu__align-center elementor-widget elementor-widget-nav-menu" data-id="8d2876d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
-<ul id="menu-1-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services//" className="elementor-item">Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29531"><a href="/notre-flotte//" className="elementor-item">Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32163"><a href="/conciergerie//" aria-current="page" className="elementor-item elementor-item-active">Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter//" className="elementor-item">Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation//" className="elementor-item">Reservation</a></li>
+<ul id="menu-1-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services/" className="elementor-item">Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29531"><a href="/notre-flotte/" className="elementor-item">Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32163"><a href="/conciergerie/" aria-current="page" className="elementor-item elementor-item-active">Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter/" className="elementor-item">Nous contacter</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation/" className="elementor-item">Reservation</a></li>
 </ul> </nav>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services//" className="elementor-item" tabIndex={-1}>Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29531"><a href="/notre-flotte//" className="elementor-item" tabIndex={-1}>Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32163"><a href="/conciergerie//" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter//" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation//" className="elementor-item" tabIndex={-1}>Reservation</a></li>
+<ul id="menu-2-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services/" className="elementor-item" tabIndex={-1}>Nos services</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29531"><a href="/notre-flotte/" className="elementor-item" tabIndex={-1}>Notre flotte</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32128 current_page_item menu-item-32163"><a href="/conciergerie/" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Conciergerie</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter/" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation/" className="elementor-item" tabIndex={-1}>Reservation</a></li>
 </ul> </nav>
 </div>
 </div>
@@ -574,18 +574,18 @@ export default function ConciergeriePage() {
 <div className="elementor-element elementor-element-ed4c666 elementor-nav-menu--dropdown-none elementor-nav-menu__align-center elementor-widget elementor-widget-nav-menu" data-id="ed4c666" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
-<ul id="menu-1-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente//" className="elementor-item">CGV</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales//" className="elementor-item">Mentions légales</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies//" className="elementor-item">Politique de cookies</a></li>
+<ul id="menu-1-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente/" className="elementor-item">CGV</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales/" className="elementor-item">Mentions légales</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies/" className="elementor-item">Politique de cookies</a></li>
 
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre//" className="elementor-item">Nous rejoindre</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre/" className="elementor-item">Nous rejoindre</a></li>
 </ul> </nav>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente//" className="elementor-item" tabIndex={-1}>CGV</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales//" className="elementor-item" tabIndex={-1}>Mentions légales</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies//" className="elementor-item" tabIndex={-1}>Politique de cookies</a></li>
+<ul id="menu-2-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente/" className="elementor-item" tabIndex={-1}>CGV</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales/" className="elementor-item" tabIndex={-1}>Mentions légales</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies/" className="elementor-item" tabIndex={-1}>Politique de cookies</a></li>
 
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre//" className="elementor-item" tabIndex={-1}>Nous rejoindre</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre/" className="elementor-item" tabIndex={-1}>Nous rejoindre</a></li>
 </ul> </nav>
 </div>
 </div>
@@ -662,42 +662,6 @@ export default function ConciergeriePage() {
 </div>
 </section>
 </footer>
-
-
-<link rel="stylesheet" id="elementor-icons-ekiticons-css" href="/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css/?ver=3.10.02" media="all" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
