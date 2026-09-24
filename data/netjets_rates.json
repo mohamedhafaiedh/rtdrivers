@@ -1,0 +1,24 @@
+{
+  "netjetsRates": [
+    { "from": "Aéroport Paris CDG", "to": "Jetex", "prices": { "2": 40, "3": 55, "4": 70 } },
+    { "from": "Zone hôtelière CDG", "to": "Jetex", "prices": { "2": 40, "3": 55, "4": 70 } },
+    { "from": "Jetex", "to": "Aéroport Paris CDG", "prices": { "2": 40, "3": 55, "4": 70 } },
+    { "from": "Jetex", "to": "Zone hôtelière CDG", "prices": { "2": 40, "3": 55, "4": 70 } },
+    { "from": "Aéroport Paris CDG", "to": "Orly", "prices": { "2": 105, "3": 120, "4": 135 } },
+    { "from": "Zone hôtelière CDG", "to": "Orly", "prices": { "2": 105, "3": 120, "4": 135 } },
+    { "from": "Orly", "to": "Aéroport Paris CDG", "prices": { "2": 105, "3": 120, "4": 135 } },
+    { "from": "Orly", "to": "Zone hôtelière CDG", "prices": { "2": 105, "3": 120, "4": 135 } },
+    { "from": "Jetex", "to": "Orly", "prices": { "2": 95, "3": 110, "4": 125 } },
+    { "from": "Orly", "to": "Jetex", "prices": { "2": 95, "3": 110, "4": 125 } },
+    { "from": "Jetex", "to": "Gare du Nord", "prices": { "2": 55, "3": 70, "4": 85 } },
+    { "from": "Gare du Nord", "to": "Jetex", "prices": { "2": 55, "3": 70, "4": 85 } },
+    { "from": "Aéroport Paris CDG", "to": "Zone hôtelière CDG", "prices": { "2": 40, "3": 55, "4": 70 } },
+    { "from": "Zone hôtelière CDG", "to": "Aéroport Paris CDG", "prices": { "2": 40, "3": 55, "4": 70 } },
+    { "from": "Orly", "to": "Gare du Nord", "prices": { "2": 70, "3": 85, "4": 100 } },
+    { "from": "Gare du Nord", "to": "Orly", "prices": { "2": 70, "3": 85, "4": 100 } },
+    { "from": "Aéroport Paris CDG", "to": "Gare du Nord", "prices": { "2": 70, "3": 85, "4": 100 } },
+    { "from": "Zone hôtelière CDG", "to": "Gare du Nord", "prices": { "2": 70, "3": 85, "4": 100 } },
+    { "from": "Gare du Nord", "to": "Aéroport Paris CDG", "prices": { "2": 70, "3": 85, "4": 100 } },
+    { "from": "Gare du Nord", "to": "Zone hôtelière CDG", "prices": { "2": 70, "3": 85, "4": 100 } }
+  ]
+}

@@ -43,7 +43,7 @@ const REVIEWS_DATA: Review[] = [
     id: "rev-5",
     name: "Lluis Font Vizcarra",
     date: "18 Avril 2022",
-    text: "Acabamos de volver de Paris-Disneyland habiendo utilizado su servicio de transfer en 3 ocasiones: aeropuerto-Paris, París-Disney y Disney-aeropuerto. Todo perfecto, profesionales y serios. Totalmente recomendable.",
+    text: "Acabamos de volver de Paris-Disneyland habiendo utilizado su service de transfer en 3 ocasiones: aeropuerto-Paris, París-Disney y Disney-aeropuerto. Todo perfecto, profesionales y serios. Totalmente recomendable.",
     avatar: "/images/ti_asset_0.png",
   },
   {
@@ -69,19 +69,25 @@ const REVIEWS_DATA: Review[] = [
   },
 ];
 
-const DISPLAY_REVIEWS = REVIEWS_DATA;
+// Pour 8 témoignages avec 3 colonnes visibles :
+// Page 0 : avis 0, 1, 2
+// Page 1 : avis 3, 4, 5
+// Page 2 : avis 5, 6, 7 (les 3 colonnes restent pleines et tous les avis sont découverts)
+const TESTIMONIAL_PAGE_INDICES = [0, 3, 5];
 
 export default function TestimonialsCarousel() {
-  const [startIndex, setStartIndex] = useState(0);
-  const total = REVIEWS_DATA.length;
+  const [currentPage, setCurrentPage] = useState(0);
+  const TOTAL_PAGES = TESTIMONIAL_PAGE_INDICES.length; // 3 pages
 
   const prevSlide = () => {
-    setStartIndex((prev) => (prev === 0 ? total - 1 : prev - 1));
+    setCurrentPage((prev) => (prev === 0 ? TOTAL_PAGES - 1 : prev - 1));
   };
 
   const nextSlide = () => {
-    setStartIndex((prev) => (prev + 1) % total);
+    setCurrentPage((prev) => (prev + 1) % TOTAL_PAGES);
   };
+
+  const startIndex = TESTIMONIAL_PAGE_INDICES[currentPage];
 
   return (
     <div className="rt-testimonials-section">
@@ -187,7 +193,7 @@ export default function TestimonialsCarousel() {
               transform: `translateX(calc(-100% / var(--items-visible) * ${startIndex}))`,
             }}
           >
-            {DISPLAY_REVIEWS.map((review, idx) => (
+            {REVIEWS_DATA.map((review, idx) => (
               <div key={`${review.id}-${idx}`} className="carousel-slide-3" style={{ padding: "0 10px" }}>
                 <div className="rt-review-card">
                   <div>
@@ -264,7 +270,7 @@ export default function TestimonialsCarousel() {
 
                     {/* Review text */}
                     <p className="rt-review-body">
-                      "{review.text}"
+                      &ldquo;{review.text}&rdquo;
                     </p>
                   </div>
 
@@ -294,15 +300,15 @@ export default function TestimonialsCarousel() {
           </div>
         </div>
 
-        {/* Dots */}
+        {/* Dots: exactly 3 dots */}
         <div className="rt-carousel-dots">
-          {REVIEWS_DATA.map((_, i) => (
+          {Array.from({ length: TOTAL_PAGES }).map((_, i) => (
             <button
               key={i}
               type="button"
-              onClick={() => setStartIndex(i)}
-              aria-label={`Avis ${i + 1}`}
-              className={`rt-dot ${startIndex === i ? "active" : ""}`}
+              onClick={() => setCurrentPage(i)}
+              aria-label={`Page avis ${i + 1}`}
+              className={`rt-dot ${currentPage === i ? "active" : ""}`}
             />
           ))}
         </div>

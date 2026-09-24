@@ -73,7 +73,7 @@ export default function ContactForm() {
           (window.location.hostname === "localhost" ||
             window.location.hostname === "127.0.0.1"))
       ) {
-        setIsSuccess(true);
+        window.location.href = "/merci/";
       } else {
         throw new Error("Erreur de transmission");
       }

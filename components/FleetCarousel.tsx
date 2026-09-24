@@ -57,18 +57,16 @@ const FLEET_DATA: Vehicle[] = [
   },
 ];
 
-const DISPLAY_ITEMS = FLEET_DATA;
-
 export default function FleetCarousel() {
-  const [startIndex, setStartIndex] = useState(0);
-  const total = FLEET_DATA.length;
+  const [currentPage, setCurrentPage] = useState(0);
+  const TOTAL_PAGES = 2; // 2 pages suffisent pour afficher les 4 véhicules sans jamais vider les colonnes
 
   const prevSlide = () => {
-    setStartIndex((prev) => (prev === 0 ? total - 1 : prev - 1));
+    setCurrentPage((prev) => (prev === 0 ? TOTAL_PAGES - 1 : prev - 1));
   };
 
   const nextSlide = () => {
-    setStartIndex((prev) => (prev + 1) % total);
+    setCurrentPage((prev) => (prev + 1) % TOTAL_PAGES);
   };
 
   return (
@@ -116,10 +114,10 @@ export default function FleetCarousel() {
         <div
           className="carousel-track-3"
           style={{
-            transform: `translateX(calc(-100% / var(--items-visible) * ${startIndex}))`,
+            transform: `translateX(calc(-100% / var(--items-visible) * ${currentPage}))`,
           }}
         >
-          {DISPLAY_ITEMS.map((vehicle, idx) => (
+          {FLEET_DATA.map((vehicle, idx) => (
             <div key={`${vehicle.id}-${idx}`} className="carousel-slide-3" style={{ padding: "0 10px" }}>
               <div className="rt-fleet-card">
                 {/* Vehicle Image */}
@@ -193,15 +191,15 @@ export default function FleetCarousel() {
         </div>
       </div>
 
-      {/* Dots Indicator */}
+      {/* Dots Indicator: 2 pages */}
       <div className="rt-carousel-dots">
-        {FLEET_DATA.map((_, i) => (
+        {Array.from({ length: TOTAL_PAGES }).map((_, i) => (
           <button
             key={i}
             type="button"
-            onClick={() => setStartIndex(i)}
-            aria-label={`Véhicule ${i + 1}`}
-            className={`rt-dot ${startIndex === i ? "active" : ""}`}
+            onClick={() => setCurrentPage(i)}
+            aria-label={`Page véhicules ${i + 1}`}
+            className={`rt-dot ${currentPage === i ? "active" : ""}`}
           />
         ))}
       </div>
