@@ -40,10 +40,6 @@ export const metadata: Metadata = {
     "max-image-preview": "large",
     "max-video-preview": -1,
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/favicon.png",
-  },
 };
 
 const jsonLdData = {

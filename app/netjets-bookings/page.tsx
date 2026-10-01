@@ -4,6 +4,8 @@ import NetJetsForm from "@/components/NetJetsForm";
 import ReservationHeader from "@/components/ReservationHeader";
 
 export const metadata: Metadata = {
+  // Page réservée à une clientèle précise : hors menu, hors sitemap, non indexée
+  robots: { index: false, follow: false },
   title: "Réservation NetJets - RT Drivers",
   description: "Réservez votre service de chauffeur privé avec RT Drivers pour les vols NetJets à Paris et en Île-de-France.",
   alternates: {

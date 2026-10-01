@@ -1,0 +1,482 @@
+/*
+ * En-tête et menu plein écran — bordeaux #800000, brun foncé #231615.
+ * Les sélecteurs sont préfixés (.header / .dialog, voire .bar) pour passer
+ * devant les règles globales du kit Elementor (.elementor-kit-80 a / button…).
+ */
+
+/* ---------- Barre ---------- */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background: #ffffff;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.15);
+}
+
+.header .bar,
+.dialog .bar {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+  min-height: 80px;
+  padding: 0 clamp(16px, 3vw, 40px);
+  font-family: "Roboto", sans-serif;
+}
+
+.header .logo,
+.dialog .logo {
+  display: block;
+  flex: none;
+  line-height: 0;
+}
+
+.header .logoImg,
+.dialog .logoImg {
+  display: block;
+  width: 180px;
+  height: auto;
+}
+
+/* Menu horizontal */
+
+.header .nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.header .nav a,
+.header .navItem {
+  display: block;
+  padding: 30px 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #231615;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.header .nav a:hover,
+.header .nav a:focus-visible,
+.header .nav a.active {
+  color: #800000;
+}
+
+/* Actions à droite */
+
+.header .actions,
+.dialog .actions {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin-left: auto;
+}
+
+.header .call,
+.dialog .call {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  color: #231615;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.header .call:hover,
+.dialog .call:hover {
+  color: #800000;
+}
+
+.phoneIcon {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  fill: #800000;
+}
+
+/* Icône d'appel seule, quand le numéro n'a plus la place */
+.header .callShort,
+.dialog .callShort {
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #800000;
+  border-radius: 50%;
+}
+
+.header .book {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  padding: 12px 24px;
+  border: 1px solid #800000;
+  border-radius: 3px;
+  background: #800000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  white-space: nowrap;
+  color: #ffffff;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.header .book:hover,
+.header .book:focus-visible {
+  background: #ffffff;
+  color: #800000;
+}
+
+/* Burger → croix */
+
+.header .bar .burger,
+.dialog .bar .burger,
+.header .measure .burger {
+  position: relative;
+  display: block;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header .bar .burger:hover,
+.header .bar .burger:focus,
+.dialog .bar .burger:hover,
+.dialog .bar .burger:focus {
+  background: transparent;
+  border: 0;
+}
+
+.header .bar .burger:focus-visible,
+.dialog .bar .burger:focus-visible {
+  outline: 2px solid #800000;
+  outline-offset: 2px;
+}
+
+.burger span {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  height: 2px;
+  border-radius: 2px;
+  background: #800000;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.2s ease, top 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.burger span:nth-child(1) { top: 14px; }
+.burger span:nth-child(2) { top: 21px; }
+.burger span:nth-child(3) { top: 28px; }
+
+.burger.isClose span:nth-child(1) { top: 21px; transform: rotate(45deg); }
+.burger.isClose span:nth-child(2) { opacity: 0; }
+.burger.isClose span:nth-child(3) { top: 21px; transform: rotate(-45deg); }
+
+@starting-style {
+  .dialog[open] .burger.isClose span:nth-child(1) { top: 14px; transform: none; }
+  .dialog[open] .burger.isClose span:nth-child(2) { opacity: 1; }
+  .dialog[open] .burger.isClose span:nth-child(3) { top: 28px; transform: none; }
+}
+
+/* Copie de mesure : largeur naturelle de chaque bloc, jamais visible */
+.header .measure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  column-gap: 12px;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.header .measure > * {
+  flex: none;
+}
+
+/* ---------- Dispositions ---------- */
+
+/* Avant le calcul JS (premier affichage), approximation par largeur d'écran */
+.header:not([data-mode]) .bar .nav,
+.header:not([data-mode]) .bar .burger,
+.header:not([data-mode]) .bar .callShort {
+  display: none;
+}
+
+@media (max-width: 1179px) {
+  .header:not([data-mode]) .bar .burger { display: block; }
+}
+
+@media (max-width: 767px) {
+  .header:not([data-mode]) .bar .book { display: none; }
+}
+
+@media (max-width: 419px) {
+  .header:not([data-mode]) .bar .callFull { display: none; }
+  .header:not([data-mode]) .bar .callShort { display: inline-flex; }
+}
+
+@media (min-width: 1180px) {
+  .header:not([data-mode]) .bar .nav { display: block; }
+}
+
+/* Après calcul */
+.header[data-mode="full"] .bar .burger,
+.header[data-mode="full"] .bar .callShort,
+.header[data-mode="book"] .bar .nav,
+.header[data-mode="book"] .bar .callShort,
+.header[data-mode="call"] .bar .nav,
+.header[data-mode="call"] .bar .callShort,
+.header[data-mode="call"] .bar .book,
+.header[data-mode="compact"] .bar .nav,
+.header[data-mode="compact"] .bar .callFull,
+.header[data-mode="compact"] .bar .book,
+.dialog .callShort,
+.dialog[data-mode="compact"] .callFull {
+  display: none;
+}
+
+.dialog[data-mode="compact"] .callShort {
+  display: inline-flex;
+}
+
+@media (max-width: 767px) {
+  .header .bar,
+  .dialog .bar {
+    min-height: 68px;
+  }
+}
+
+@media (max-width: 479px) {
+  .header .logoImg,
+  .dialog .logoImg {
+    width: 140px;
+  }
+
+  .header .bar,
+  .dialog .bar {
+    column-gap: 16px;
+  }
+
+  .header .call,
+  .dialog .call {
+    font-size: 15px;
+  }
+}
+
+/* Petits téléphones : logo et numéro un peu réduits pour garder le numéro affiché */
+@media (max-width: 389px) {
+  .header .logoImg,
+  .dialog .logoImg {
+    width: 118px;
+  }
+
+  .header .bar,
+  .dialog .bar {
+    column-gap: 12px;
+  }
+
+  .header .call,
+  .dialog .call {
+    gap: 6px;
+    font-size: 14px;
+  }
+
+  .header .actions,
+  .dialog .actions {
+    column-gap: 4px;
+  }
+}
+
+/* ---------- Menu plein écran ---------- */
+
+.dialog {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #ffffff;
+  color: #231615;
+  opacity: 0;
+  transform: none;
+  transition:
+    opacity 0.3s ease,
+    overlay 0.3s allow-discrete,
+    display 0.3s allow-discrete;
+}
+
+.dialog[open] {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+}
+
+@starting-style {
+  .dialog[open] {
+    opacity: 0;
+  }
+}
+
+.dialog::backdrop {
+  background: transparent;
+}
+
+.dialog .bar {
+  flex: none;
+  border-bottom: 1px solid #ece7e6;
+}
+
+.dialog .menu {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 16px clamp(16px, 3vw, 40px) max(32px, env(safe-area-inset-bottom));
+}
+
+.dialog .menu ul {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.dialog .menu li {
+  border-bottom: 1px solid #ece7e6;
+  animation: rise 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.dialog .menu li:nth-child(2) { animation-delay: 0.04s; }
+.dialog .menu li:nth-child(3) { animation-delay: 0.08s; }
+.dialog .menu li:nth-child(4) { animation-delay: 0.12s; }
+
+.dialog .menu ul a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 22px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(24px, 6.5vw, 34px);
+  font-weight: 500;
+  line-height: 1.15;
+  color: #231615;
+  text-decoration: none;
+  transition: color 0.25s ease, padding-left 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.dialog .menu ul a:hover,
+.dialog .menu ul a:focus-visible,
+.dialog .menu ul a.active {
+  color: #800000;
+}
+
+.dialog .menu ul a:hover,
+.dialog .menu ul a:focus-visible {
+  padding-left: 8px;
+}
+
+.dialog .arrow {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  fill: none;
+  stroke: #800000;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.dialog .menu ul a:hover .arrow,
+.dialog .menu ul a:focus-visible .arrow {
+  transform: translateX(4px);
+}
+
+.dialog .menuActions {
+  display: grid;
+  gap: 12px;
+  max-width: 640px;
+  margin: 32px auto 0;
+  animation: rise 0.45s 0.16s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.dialog .menuPrimary,
+.dialog .menuSecondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 54px;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dialog .menuPrimary {
+  background: #800000;
+  color: #ffffff;
+}
+
+.dialog .menuPrimary:hover {
+  background: #231615;
+  color: #ffffff;
+}
+
+.dialog .menuSecondary {
+  border: 1px solid #800000;
+  color: #800000;
+}
+
+.dialog .menuSecondary:hover {
+  background: #800000;
+  color: #ffffff;
+}
+
+.dialog .menuSecondary:hover .phoneIcon {
+  fill: #ffffff;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dialog,
+  .dialog .menu li,
+  .dialog .menuActions,
+  .burger span {
+    animation: none;
+    transition: none;
+  }
+}

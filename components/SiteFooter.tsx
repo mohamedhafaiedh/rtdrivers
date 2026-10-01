@@ -1,63 +1,11 @@
-import type { Metadata } from "next";
 import Link from "next/link";
-import SiteHeader from "@/components/SiteHeader";
 
-export const metadata: Metadata = {
-  title: "Politique de Cookies - RT Drivers",
-  description: "Politique de cookies Le « cookie » est un fichier installé sur votre terminal, permettant de stocker des informations relatives à votre navigation sur notre site internet et nos applications dans le but, notamment, d’authentifier les utilisateurs, de mémoriser leurs préférences et paramètres, de déterminer la popularité des contenus, de diffuser des campagnes publicitaires et […]",
-  alternates: {
-    canonical: "/politique-de-cookies/",
-  },
-};
-
-export default function PolitiqueDeCookiesPage() {
+/**
+ * Pied de page commun (template Elementor 29474), extrait de /mentions-legales/.
+ * Utilisé par la page 404 ; les autres pages embarquent encore leur copie.
+ */
+export default function SiteFooter() {
   return (
-    <div className="privacy-policy wp-singular page-template-default page page-id-12 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master hello-elementor-default elementor-default elementor-kit-80 elementor-page elementor-page-12">
-
-
-
-<a className="skip-link screen-reader-text" href="#content">Aller au contenu</a>
-<SiteHeader />
-<main id="content" className="site-main post-12 page type-page status-publish hentry">
-<div className="page-content">
-<div data-elementor-type="wp-page" data-elementor-id="12" className="elementor elementor-12" data-elementor-post-type="page">
-<section className="elementor-section elementor-top-section elementor-element elementor-element-251ca30 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="251ca30" data-element_type="section" data-e-type="section">
-<div className="elementor-container elementor-column-gap-default">
-<div className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a10b4f9" data-id="a10b4f9" data-element_type="column" data-e-type="column">
-<div className="elementor-widget-wrap elementor-element-populated">
-<div className="elementor-element elementor-element-49e5cb4 elementor-widget elementor-widget-heading" data-id="49e5cb4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-<div className="elementor-widget-container">
-<h1 className="elementor-heading-title elementor-size-default">Politique de cookies</h1> </div>
-</div>
-<div className="elementor-element elementor-element-363ff3b elementor-widget elementor-widget-text-editor" data-id="363ff3b" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-<div className="elementor-widget-container">
-<p>Le « cookie » est un fichier installé sur votre terminal, permettant de stocker des informations relatives à votre navigation sur notre site internet et nos applications dans le but, notamment, d’authentifier les utilisateurs, de mémoriser leurs préférences et paramètres, de déterminer la popularité des contenus, de diffuser des campagnes publicitaires et de mesurer leur efficacité, d’analyser la fréquentation de notre site et de nos applications et plus généralement de comprendre les comportements et intérêts en ligne des personnes qui interagissent avec nos services.</p><p>Les cookies peuvent avoir une durée de vie variable. Les « cookies de session » ne persistent que si votre navigateur est ouvert. Ils sont automatiquement supprimés lorsque vous fermez votre navigateur. D’autres cookies sont des « cookies permanents », ce qui signifie qu’ils continuent d’être actifs une fois que votre navigateur est fermé. Ils peuvent reconnaître, par exemple, votre appareil lorsque vous ouvrez une nouvelle session de navigation.</p><p>Les paragraphes ci-dessous ont pour objectif de vous donner des informations concernant les cookies utilisés par RT Drivers ou ses partenaires lorsque vous utilisez notre site ou nos applications, et de vous proposer une solution pour adapter votre choix.</p> </div>
-</div>
-<div className="elementor-element elementor-element-e2d8dee elementor-widget elementor-widget-heading" data-id="e2d8dee" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-<div className="elementor-widget-container">
-<h3 className="elementor-heading-title elementor-size-default">Comment exercer votre choix concernant les cookies ?
-</h3> </div>
-</div>
-<div className="elementor-element elementor-element-a3398c9 elementor-widget elementor-widget-text-editor" data-id="a3398c9" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-<div className="elementor-widget-container">
-<p>– Paramètres du navigateur et conséquences de vos choix :<br />Plusieurs possibilités vous sont offertes pour gérer les cookies. A tout moment, vous pouvez exprimer et modifier vos souhaits en matière de cookies, via la section Aide de la barre d’outils de votre navigateur. Celle-ci vous indique comment refuser les nouveaux « cookies » ou obtenir un message qui vous signale leur réception ou encore comment désactiver les «cookies» soit systématiquement, soit selon leur émetteur. Vous pouvez également effacer les cookies manuellement.</p><p> </p><p>Il est possible que cette configuration de votre navigateur vous prive d’accéder à certains contenus ou perturbe significativement votre navigation et les services que vous attendez de la part de notre site. Le cas échéant, nous déclinons toute responsabilité pour les conséquences liées au comportement dégradé de notre site résultant de l’impossibilité d’utiliser les cookies nécessaires à son fonctionnement.</p> </div>
-</div>
-<div className="elementor-element elementor-element-28eeb1f elementor-widget elementor-widget-heading" data-id="28eeb1f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-<div className="elementor-widget-container">
-<h3 className="elementor-heading-title elementor-size-default">Votre choix selon votre navigateur internet :
-</h3> </div>
-</div>
-<div className="elementor-element elementor-element-d1f3003 elementor-widget elementor-widget-text-editor" data-id="d1f3003" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-<div className="elementor-widget-container">
-<p>Pour la gestion des cookies, chaque navigateur propose un process de configuration. Il est décrit dans le menu d’aide de votre navigateur, qui vous permettra de savoir de comment manifester votre volonté en matière de cookies :</p><p><br />Pour Internet Explorer™ : ouvrez le menu «Outils», puis sélectionnez «Options internet» ; cliquez sur l’onglet «Confidentialité» puis l’onglet «Avancé» choisissez le niveau souhaité ou suivez ce lien : <a href="http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-cookies" rel="nofollow noopener" target="_blank">http://windows.microsoft.com/fr-FR/windows-vista/Block-or-allow-cookies</a></p><p>Pour Firefox™ : ouvrez le menu «Outils», puis sélectionnez «Options» ; cliquez sur l’onglet «Vie privée» puis choisissez les options souhaitées ou suivez ce lien : <a href="http://support.mozilla.org/fr/kb/Activer%20et%20d%C3%A9sactiver%20les%20cookies" rel="nofollow noopener" target="_blank">http://support.mozilla.org/fr/kb/Activer%20et%20d%C3%A9sactiver%20les%20cookies</a></p><p>Pour Chrome™ : ouvrez le menu de configuration (logo clé à molette), puis sélectionnez «Options» ; cliquez sur «Options avancées» puis dans la section «Confidentialité», cliquez sur «Paramètres de contenu», et choisissez les options souhaitées ou suivez le lien suivant : <a href="http://support.google.com/chrome/bin/answer.py?hl=fr&hlrm=en&answer=95647" rel="nofollow noopener" target="_blank">http://support.google.com/chrome/bin/answer.py?hl=fr&hlrm=en&answer=95647</a></p><p>Pour Safari™ : choisissez « Safari &gt; Préférences» puis cliquez sur «Sécurité» ; Dans la section «Accepter les cookies» choisissez les options souhaitées ou suivez ce lien :<a href="http://docs.info.apple.com/article.html?path=Safari/3.0/fr/9277.html" rel="nofollow noopener" target="_blank"> http://docs.info.apple.com/article.html?path=Safari/3.0/fr/9277.html</a></p><p>Pour Opera™ : ouvrez le menu «Outils» ou «Réglages», puis sélectionnez «Supprimer les données privées»; cliquez sur l’onglet «Options détaillées», puis choisissez les options souhaitées ou suivez ce lien : <a href="https://help.opera.com/Windows/10.20/fr/cookies.html" target="_blank" rel="noopener">http://help.opera.com/Windows/10.20/fr/cookies.html</a></p><p>Votre choix sur mobile<br />Pour spécifier si Safari™ accepte ou non des cookies :<br />1. Dans l’écran principal, choisissez Réglages &gt; Safari.<br />2. Touchez Accepter les cookies et choisissez « Jamais », « Des sites visités » ou « Toujours ».<br />Pour effacer tous les cookies dans Safari :<br />1. Dans l’écran principal, choisissez Réglages &gt; Safari.<br />2. Touchez Effacer les cookies.</p><p>Pour supprimer les cookies sur Androïd :<br />1. Menu &gt; Paramètres &gt; Effacer tous les cookies</p> </div>
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-</div>
-</main>
 <footer data-elementor-type="footer" data-elementor-id="29474" className="elementor elementor-29474 elementor-location-footer" data-elementor-post-type="elementor_library">
 <section className="elementor-section elementor-top-section elementor-element elementor-element-95242e6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="95242e6" data-element_type="section" data-e-type="section">
 <div className="elementor-container elementor-column-gap-default">
@@ -69,8 +17,8 @@ export default function PolitiqueDeCookiesPage() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-2bc8e7f elementor-hidden-phone elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="2bc8e7f" data-element_type="widget" data-e-type="widget" data-widget_type="theme-site-logo.default">
 <div className="elementor-widget-container">
-<a href="/">
-<img width="480" height="137" src="/images/cropped-Color-logo-no-background480.png" className="attachment-full size-full wp-image-30686" alt="" sizes="(max-width: 480px) 100vw, 480px" /> </a>
+<Link href="/">
+<img width="480" height="137" src="/images/cropped-Color-logo-no-background480.png" className="attachment-full size-full wp-image-30686" alt="" sizes="(max-width: 480px) 100vw, 480px" /> </Link>
 </div>
 </div>
 <div className="elementor-element elementor-element-ec00fee elementor-icon-list--layout-inline elementor-align-center elementor-tablet-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="ec00fee" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
@@ -110,7 +58,7 @@ export default function PolitiqueDeCookiesPage() {
 </div>
 <div className="elementor-element elementor-element-337da58 elementor-widget elementor-widget-html" data-id="337da58" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 <div className="elementor-widget-container">
-<a href="https://www.kayak.fr/Paris.36014.guide" target="_blank"><img style={{ display: "block", marginLeft: "auto", marginRight: "auto" }} width="250" height="100" src="https://www.kayak.com/news/badge/kk/tg010.png" /></a> </div>
+<a href="https://www.kayak.fr/Paris.36014.guide" target="_blank"><img alt="Kayak Travel guides" style={{ display: "block", marginLeft: "auto", marginRight: "auto" }} width="250" height="100" src="https://www.kayak.com/news/badge/kk/tg010.png" /></a> </div>
 </div>
 </div>
 </div>
@@ -123,18 +71,18 @@ export default function PolitiqueDeCookiesPage() {
 <div className="elementor-element elementor-element-8d2876d elementor-nav-menu--dropdown-none elementor-nav-menu__align-center elementor-widget elementor-widget-nav-menu" data-id="8d2876d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
-<ul id="menu-1-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services/" className="elementor-item">Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29531"><a href="/notre-flotte/" className="elementor-item">Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32163"><a href="/conciergerie/" className="elementor-item">Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter/" className="elementor-item">Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation/" className="elementor-item">Reservation</a></li>
+<ul id="menu-1-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><Link href="/nos-services/" className="elementor-item">Nos services</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29531"><Link href="/notre-flotte/" className="elementor-item">Notre flotte</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32163"><Link href="/conciergerie/" className="elementor-item">Conciergerie</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><Link href="/nous-contacter/" className="elementor-item">Nous contacter</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><Link href="/reservation/" className="elementor-item">Reservation</Link></li>
 </ul> </nav>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><a href="/nos-services/" className="elementor-item" tabIndex={-1}>Nos services</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29531"><a href="/notre-flotte/" className="elementor-item" tabIndex={-1}>Notre flotte</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32163"><a href="/conciergerie/" className="elementor-item" tabIndex={-1}>Conciergerie</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><a href="/nous-contacter/" className="elementor-item" tabIndex={-1}>Nous contacter</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><a href="/reservation/" className="elementor-item" tabIndex={-1}>Reservation</a></li>
+<ul id="menu-2-8d2876d" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29530"><Link href="/nos-services/" className="elementor-item" tabIndex={-1}>Nos services</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29531"><Link href="/notre-flotte/" className="elementor-item" tabIndex={-1}>Notre flotte</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-32163"><Link href="/conciergerie/" className="elementor-item" tabIndex={-1}>Conciergerie</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29532"><Link href="/nous-contacter/" className="elementor-item" tabIndex={-1}>Nous contacter</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-29533"><Link href="/reservation/" className="elementor-item" tabIndex={-1}>Reservation</Link></li>
 </ul> </nav>
 </div>
 </div>
@@ -149,18 +97,18 @@ export default function PolitiqueDeCookiesPage() {
 <div className="elementor-element elementor-element-ed4c666 elementor-nav-menu--dropdown-none elementor-nav-menu__align-center elementor-widget elementor-widget-nav-menu" data-id="ed4c666" data-element_type="widget" data-e-type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;<svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;><path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;><\/path><\/svg>&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-underline e--animation-fade">
-<ul id="menu-1-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente/" className="elementor-item">CGV</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales/" className="elementor-item">Mentions légales</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy current-menu-item page_item page-item-12 current_page_item menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies/" aria-current="page" className="elementor-item elementor-item-active">Politique de cookies</a></li>
+<ul id="menu-1-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><Link href="/conditions-generales-de-vente/" className="elementor-item">CGV</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><Link href="/mentions-legales/" className="elementor-item">Mentions légales</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies/" className="elementor-item">Politique de cookies</a></li>
 
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre/" className="elementor-item">Nous rejoindre</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><Link href="/nous-rejoindre/" className="elementor-item">Nous rejoindre</Link></li>
 </ul> </nav>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
-<ul id="menu-2-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><a href="/conditions-generales-de-vente/" className="elementor-item" tabIndex={-1}>CGV</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><a href="/mentions-legales/" className="elementor-item" tabIndex={-1}>Mentions légales</a></li>
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy current-menu-item page_item page-item-12 current_page_item menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies/" aria-current="page" className="elementor-item elementor-item-active" tabIndex={-1}>Politique de cookies</a></li>
+<ul id="menu-2-ed4c666" className="elementor-nav-menu sm-vertical"><li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28409"><Link href="/conditions-generales-de-vente/" className="elementor-item" tabIndex={-1}>CGV</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-28410"><Link href="/mentions-legales/" className="elementor-item" tabIndex={-1}>Mentions légales</Link></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-28411"><a rel="privacy-policy" href="/politique-de-cookies/" className="elementor-item" tabIndex={-1}>Politique de cookies</a></li>
 
-<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><a href="/nous-rejoindre/" className="elementor-item" tabIndex={-1}>Nous rejoindre</a></li>
+<li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-31017"><Link href="/nous-rejoindre/" className="elementor-item" tabIndex={-1}>Nous rejoindre</Link></li>
 </ul> </nav>
 </div>
 </div>
@@ -170,8 +118,8 @@ export default function PolitiqueDeCookiesPage() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-43e1110 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="43e1110" data-element_type="widget" data-e-type="widget" data-widget_type="theme-site-logo.default">
 <div className="elementor-widget-container">
-<a href="/">
-<img width="480" height="137" src="/images/cropped-Color-logo-no-background480.png" className="attachment-full size-full wp-image-30686" alt="" sizes="(max-width: 480px) 100vw, 480px" /> </a>
+<Link href="/">
+<img width="480" height="137" src="/images/cropped-Color-logo-no-background480.png" className="attachment-full size-full wp-image-30686" alt="" sizes="(max-width: 480px) 100vw, 480px" /> </Link>
 </div>
 </div>
 <div className="elementor-element elementor-element-4f653f7 elementor-widget elementor-widget-heading" data-id="4f653f7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
@@ -237,8 +185,5 @@ export default function PolitiqueDeCookiesPage() {
 </div>
 </section>
 </footer>
-
-
-</div>
   );
 }

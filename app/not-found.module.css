@@ -1,0 +1,203 @@
+/* Page 404 — reprend la palette du site : bordeaux #800000, brun foncé #231615 */
+
+.main {
+  font-family: "Poppins", sans-serif;
+  color: #231615;
+}
+
+.main .hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 62vh;
+  padding: 96px 20px;
+  text-align: center;
+  color: #ffffff;
+  background:
+    linear-gradient(rgba(35, 22, 21, 0.72), rgba(35, 22, 21, 0.82)),
+    url("/images/Home-1920x1000-1.jpg") center / cover no-repeat;
+}
+
+.main .heroInner {
+  max-width: 720px;
+}
+
+.main .code {
+  margin: 0 0 8px;
+  font-size: clamp(88px, 18vw, 160px);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.85);
+}
+
+.main .title {
+  margin: 0 0 16px;
+  font-size: clamp(26px, 4.5vw, 40px);
+  font-weight: 600;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.main .lead {
+  margin: 0 auto 32px;
+  max-width: 560px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.main .actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.main .primary,
+.main .secondary,
+.main .card,
+.main .help a {
+  font-family: "Poppins", sans-serif;
+}
+
+.main .primary,
+.main .secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 28px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.main .primary {
+  background: #800000;
+  color: #ffffff;
+  border: 1px solid #800000;
+}
+
+.main .primary:hover {
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #800000;
+}
+
+.main .secondary {
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  color: #ffffff;
+}
+
+.main .secondary:hover {
+  background: #ffffff;
+  color: #231615;
+}
+
+.main .shortcuts {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 72px 20px 80px;
+  text-align: center;
+}
+
+.main .shortcutsTitle {
+  margin: 0 0 32px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #231615;
+}
+
+.main .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main .card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  padding: 28px 24px;
+  text-align: left;
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid #ece7e6;
+  border-top: 3px solid #800000;
+  border-radius: 4px;
+  box-shadow: 0 6px 24px rgba(35, 22, 21, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.main .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 32px rgba(35, 22, 21, 0.12);
+}
+
+.main .cardLabel {
+  font-size: 18px;
+  font-weight: 600;
+  color: #231615;
+}
+
+.main .cardText {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #5c4f4e;
+}
+
+.main .cardArrow {
+  margin-top: auto;
+  font-size: 20px;
+  color: #800000;
+}
+
+.main .help {
+  margin: 40px 0 0;
+  font-size: 15px;
+  color: #5c4f4e;
+}
+
+.main .help a {
+  color: #800000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.main .help a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .main .hero {
+    min-height: 0;
+    padding: 64px 16px;
+  }
+
+  .main .actions a {
+    flex: 1 1 100%;
+  }
+
+  .main .shortcuts {
+    padding: 56px 16px 64px;
+  }
+
+  .main .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main .card {
+    transition: none;
+  }
+}

@@ -3818,3 +3818,6 @@ html .chbs-booking-form-id-23152 .chbs-tab.ui-tabs .ui-tabs-panel, .chbs-tab.ui-
 .elementor-element-1ccde74 .elementor-button:focus svg {
   fill: #9F3029 !important;
 }
+
+/* Longues URL dans les textes (politique de cookies) : coupure plutôt que débordement horizontal sur mobile */
+.elementor-widget-text-editor a{overflow-wrap:anywhere}
